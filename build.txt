@@ -1,0 +1,4 @@
+displayName = Constant Rotating Screen
+author = Oli.H
+version = 0.1
+side = Client
