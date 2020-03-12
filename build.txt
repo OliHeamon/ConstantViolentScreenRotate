@@ -1,4 +1,4 @@
-displayName = Constant Rotating Screen
+displayName = Constant Violent Screen Rotate
 author = Oli.H
-version = 0.1
+version = 1.0
 side = Client

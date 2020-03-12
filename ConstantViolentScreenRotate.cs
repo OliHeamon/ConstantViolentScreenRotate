@@ -17,10 +17,7 @@ namespace ConstantViolentScreenRotate
         public override void ModifyTransformMatrix(ref SpriteViewMatrix Transform)
         {
             rotation += Main.rand.NextFloat(-0.6f, 0.6f);
-            if (rotation >= 360)
-            {
-                rotation = 0;
-            }
+
             var type = typeof(SpriteViewMatrix);
             var field = type.GetField("_transformationMatrix", BindingFlags.NonPublic | BindingFlags.Instance);
 
