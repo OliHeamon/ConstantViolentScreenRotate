@@ -32,6 +32,7 @@ namespace ConstantViolentScreenRotate
         public override void Load()
         {
             On.Terraria.Graphics.SpriteViewMatrix.ShouldRebuild += UpdateMatrixFirst;
+			
         }
     }
 }
